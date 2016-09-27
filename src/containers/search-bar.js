@@ -13,6 +13,8 @@ export default class SearchBar extends Component {
   
   onFormSubmit(event) {
     event.preventDefault();
+    // call to the api using this.state.term
+    // http://api.openweathermap.org/data/2.5/forecast/city?id=524901&APPID={APIKEY} 46f1649fd46f852077f6c69fbdc503f2
   }
   
   render () {
